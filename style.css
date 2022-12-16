@@ -1,0 +1,399 @@
+.cards {
+    /* DIV с картой и Iframe для адаптивной верстки */
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#map {
+    height: 650px;
+    /* Размер карты  */
+}
+
+/* IFRAME */
+
+#infobox {
+    /* НАСТРОЙКИ DIV в котром лежит IRAME */
+    border-bottom: rgb(232, 232, 232) 1px solid;
+    border-top: rgb(232, 232, 232) 1px solid;
+    height: 650px;
+}
+
+#info {
+    /* НАСТАРОЙКИ IFRAME */
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+/* ТЕКС */
+
+p {
+    font-family: 'Pragmatica Cyrillic', arial;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Mirandolina', arial;
+    font-size: 36px;
+}
+
+/* -------------------- */
+
+/* Картинки */
+
+.imag {
+    /* DIV с картинкой  */
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+}
+
+.imag .img {
+    /* картинка  */
+    width: auto;
+    height: 100%;
+}
+
+/* ------------- */
+
+/* выпадающее меню\/ */
+
+.dropbtn {
+    background-color: #efbb5a;
+    width: 100%;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 55px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #e79d25;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(99, 19, 19, 0.2);
+    z-index: 1;
+}
+
+.show {
+    display: block;
+}
+
+.buttonMenu {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-family: PragmaticaC;
+    border: none;
+    border-radius: 55px;
+    width: 100%;
+    border: #efbb5a;
+    background-color: #efbb5a;
+}
+
+.buttonMenu:hover, .buttonMenu:focus {
+    background-color: #e79d25;
+}
+/* ------------------------- */
+
+
+.buttonFrame {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-family: PragmaticaC;
+    border: none;
+    width: 95%;
+    border: #efbb5a;
+    background-color: #efbb5a;
+}
+.buttonFrame:hover, .buttonMenu:focus {
+    background-color: #e79d25;
+}
+.buttoninFrame {
+    display: flex;
+    flex-wrap: row;
+    margin-left: 25px;
+}
+
+#HouseHistory,
+#LibraryHistory,
+#PhotoGallary {
+    height: 100%;
+}
+/* ------------------------- */
+
+/* --------адаптация------------- */
+
+/*поведение меню при разрешении менее 769 пикселей*/
+
+@media (max-width:769px) {
+    #map {
+        height: 400px;
+        margin-bottom: 10px;
+    }
+    #infobox {
+        height: 760px;
+    }
+}
+
+/*поведение меню при разрешении менее 920 пикселей*/
+
+@media screen and (max-width: 920px) {
+    .ad-menu li {
+        width: 49.5%;
+    }
+}
+
+.ad-menu li li {
+    width: 100%;
+}
+
+/*поведения и структура при экране менее 680 пикселей*/
+
+@media screen and (max-width: 680px) {
+    .ad-menu li {
+        width: 100%;
+    }
+    .ad-menu ul {
+        display: block;
+    }
+    .ad-menu nav:focus ul, .ad-menu ul:hover {
+        display: block;
+    }
+}
+
+/* --------------- */
+
+/* Выпадающий список*/
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    color: #222;
+}
+
+.topmenu>li {
+    display: inline-block;
+    position: relative;
+}
+
+.topmenu>li>a {
+    position: relative;
+    padding: 10px 2px;
+    font-family: 'Pragmatica Cyrillic', arial;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 3px;
+}
+
+.topmenu>li>a:before {
+    content: "";
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 100%;
+    width: 10px;
+    height: 10px;
+    background: #efbb5a;
+    border-radius: 50%;
+    transform: translate(-50%, 20px);
+    opacity: 0;
+    transition: .3s;
+}
+
+.topmenu li:hover a:before {
+    transform: translate(-50%, 0);
+    opacity: 1;
+}
+
+.submenu {
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    top: 100%;
+    width: 200px;
+    padding: 15px 0 15px;
+    margin-top: 5px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(-50%, 20px);
+    transition: .3s;
+}
+
+.topmenu>li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+
+.submenu a {
+    font-family: 'Pragmatica Cyrillic', arial;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    transition: .3s linear;
+}
+
+.submenu a:hover {
+    background: #e8e8e8;
+}
+
+/*------------------------------------Слайдшоу------------------------------------------------*/
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}

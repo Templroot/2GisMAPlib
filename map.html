@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Карта</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+</head>
+
+<body>
+    <header></header>
+    <div class='ad-menu'>
+    <nav>
+        <ul class="topmenu">
+            <li>
+                <a><input id="show_All" class="buttonMenu" type="button" value="Показать все маркеры" /></a>
+                <!-- <ul class="submenu">
+                    <li>
+                        <a><input id="marker1_show"  class="buttonMenu" type="button" value="ЦГБД" /></a>
+                    </li>
+                    <li>
+                        <a><input id="marker2_show" class="buttonMenu" type="button" value="Филиал 1" /></a>
+                    </li>
+                    <li>
+                        <a><input id="marker3_show" class="buttonMenu" type="button" value="Филиал 2" /></a>
+                    </li>
+                    <li>
+                        <a><input id="marker4_show" class="buttonMenu" type="button" value="Филиал 3" /></a>
+                    </li>
+                    <li>
+                        <a><input id="marker5_show" class="buttonMenu" type="button" value="Филиал 4" /></a>
+                    </li>
+                    <li>
+                        <a><input id="marker6_show" class="buttonMenu" type="button" value="Филиал 5" /></a>
+                    </li>
+                </ul> -->
+            </li>
+            <li>
+                <a><input id="show_move_markers" class="buttonMenu" type="button" value="История передвижения" /></a>
+               
+    
+            </li>
+
+            <li>
+                <a><input id="show_F1" class="buttonMenu" type="button" value="Филиал №1" /></a>
+            
+                <ul class="submenu">
+                    <li>
+                        <a><input id="show_F1_1" class="buttonMenu" type="button" value="пр. Чернышевского, д. 17   " /></a>
+                    </li>
+                    <li>
+                        <a><input id="show_F1_2" class="buttonMenu" type="button" value="Литейный пр., д. 19  " /></a>
+                    </li>
+                    <li>
+                        <a><input id="show_F1_3" class="buttonMenu" type="button" value=" ул. Маяковского, д. 27     " /></a>
+                    </li>
+                   
+                </ul>
+            </li>
+            
+            <li>
+                <a><input id="show_F2" class="buttonMenu" type="button" value="Филиал №2" /></a>
+                <ul class="submenu">
+                    <li>
+                        <a><input id="show_F2_1" class="buttonMenu" type="button" value=" наб. реки Фонтанки, д. 62    " /></a>
+                    </li>
+                    <li>
+                        <a><input id="show_F2_2" class="buttonMenu" type="button" value="ул. Марата, д. 72" /></a>
+                    </li>
+                   
+                   
+                </ul>
+            </li>
+            <li>
+                <a><input id="show_F3" class="buttonMenu" type="button" value="Филиал №3" /></a>
+            </li>
+            <li>
+                <a><input id="show_F4" class="buttonMenu" type="button" value="Филиал №4" /></a>
+            </li>
+            <li>
+                <a><input id="hide_All" class="buttonMenu" type="button" value="Спрятать все маркеры" /></a>
+            </li>
+            
+        </ul>
+    </nav>
+    
+    </div>  
+<!-- ПОЗЖЕ МОЖНО БУДЕТ СДЕЛАТЬ ИЗ КОДА НИЖЕ ↓ МЕНЮ В ОДНОЙ КНОПКЕ ДЛЯ САЙТА С МАЛЕНЬКИМ РАЗРЕШЕНИЕМ, ЧТО БЫ МЕНЮ НЕ ЗАНИМАЛО ПОЛ ЭКРАНА -->
+    <!-- <div class="dropdown">  
+        <button onclick="myFunction()" class="dropbtn">Меню</button>
+        <div id="myDropdown" class="dropdown-content">
+            <input id="hide_All" class="buttonMenu" type="button" value="Спрятать все маркеры" />
+            <input id="show_All" class="buttonMenu" type="button" value="Показать все маркеры" />
+            <input id="show_two_markers" class="buttonMenu" type="button" value="Показать 2 маркера" />
+            <input id="hide_three_markers" class="buttonMenu" type="button" value="Спрятать 3 маркера" />
+        </div>
+    </div> -->
+    </header>
+    <div class="cards">
+
+        <div class="col-xs-12 col-sm-12	col-md-12 col-lg-12 col-xl-7">
+            <div id="map"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12	col-md-12 col-lg-12 col-xl-5">
+            <div id="infobox">
+                <iframe id="info" name="info"  frameborder="no" src="./default.html" hspase="5">
+
+				</iframe>
+            </div>
+        </div>
+
+        
+    </div>
+    <script src="https://maps.api.2gis.ru/2.0/loader.js"></script>
+
+    <script type="text/javascript" src="bibaddress.js"></script>
+
+</body>
+<footer>
+</footer>
+
+</html>
