@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        function HouseHistory() {
+            if (document.getElementById('HouseHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "block";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function LibraryHistory() {
+            if (document.getElementById('LibraryHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "block";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function PhotoGallary() {
+            if (document.getElementById('PhotoGallary').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "block";
+            }
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <div class="buttoninFrame">
+        <input class="buttonFrame" type="button" value="История дома" onClick="HouseHistory()"></input>
+        <input class="buttonFrame" type="button" value="История библиотеки" onClick="LibraryHistory()"></input>
+        <input class="buttonFrame" type="button" value="Фотогалерея" onClick="PhotoGallary()"></input>
+    </div>
+
+    <div id="HouseHistory" style="display:none">
+        <p>В XVIII веке участок, принадлежавший обер-штатмейстеру Екатерины II Л. А. Нарышкину, обзавелся Воксалом в
+            Нарышкином саду – местом для гуляний с танцами, маскарадами и другими увеселительными мероприятиями. На
+            открытом театре также давали пантомимы и зажигали фейерверки.
+            С 1830-х годов участком владел промышленник и меценат Александр Николаевич Демидов.
+            Весной 1864 года антрепренер В. Н. Егарев арендовал у Демидовского работного дома ту часть его участка, что
+            выходила на Офицерскую (в наше время – Декабристов) улицу. Таким образом он устроил здесь новый «Русский
+            семейный сад», который впоследствии в обиходе стали называть «Демидовым» или «Демидроном».
+            Представления на летней сцене начались 1 мая. В декабре 1879 года в саду открылся Зимний кафешантан
+            «Фоли-Бержер», а спустя три года на Офицерской улице, в доме № 35, был выстроен зимний театр в стиле
+            Ренессанс – каменное двухэтажное здание с зимним балконом.
+
+        </p>
+        <p>В середине 1880-х дела у В. Н. Егарева пришли в упадок, и он вынужден был продать сад с торгов бывшей
+            артистке оперетты, антрепренеру Вере Александровне Линской-Неметти. В саду разломали старый деревянный театр
+            и построили два новых: летний и зимний. Летом на сцене «Театра Неметти» выступали песенники, эстрадные
+            артисты, чтецы, а зимой, в теплом каменном театре (построенном по проекту архитектора Н. В. Дмитриева)
+            давали опереточные и драматические спектакли в постановке комика С. К. Ленни.
+        </p>
+        <a href="../pdf/oficer/HouseHistoryOficer.pdf" target="_blank">Читать далее...</a>
+    </div>
+    <div id="LibraryHistory" style="display:none">
+        <p>К сожалению, сохранилось немного информации о первых годах работы центральной городской детской библиотеки
+            им. А. С. Пушкина, однако наиболее важные и ценные сведения все же дошли до наших дней. Так, первое
+            упоминание о детской библиотеке 2-го городского района (в будущем – ЦГДБ им. А. С. Пушкина) относится к
+            сентябрю 1920 года. Тогда в библиотеку пришла Арепьева Елена Петровна, чей табельный номер – 11508.
+            Первые сведения о работе библиотеки появились 24 декабря 1920 года, когда технические работники детской
+            библиотеки параллельно с техническими работниками коммунальной библиотеки им. Грибоедова (ул. Садовая, д. №
+            104) отказались работать, если им не поднимут зарплату.
+            Впервые адрес библиотеки был назван 16 июня 1921 года, когда в библиотеку устраивалась Токай Мария
+            Карниловна, впоследствии проработавшая помощником библиотекаря более 10 лет. Библиотека располагалась тогда
+            на Офицерской ул., д. № 39 (ныне – ул. Декабристов, дом не сохранился). Позже детскую библиотеку переведут
+            на Садовую ул., д. № 104, а в августе 1923 года ей предоставят помещение на Мастерской ул., д. № 10. [3]
+
+        </p>
+
+        <a href="../pdf/oficer/LibraryHistoryOficer.pdf" target="_blank">Читать далее...</a>
+
+    </div>
+    <div id="PhotoGallary" style="display:none">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 24</div>
+                <img src="../pdf/oficer/54646546.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 24</div>
+                <img src="../pdf/oficer/5636636546.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 24</div>
+                <img src="../pdf/oficer/os.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 24</div>
+                <img src="../pdf/oficer/os2.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 24</div>
+                <img src="../pdf/oficer/os3.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 24</div>
+                <img src="../pdf/oficer/os4.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 24</div>
+                <img src="../pdf/oficer/os5.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 24</div>
+                <img src="../pdf/oficer/os6.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 24</div>
+                <img src="../pdf/oficer/os7.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 24</div>
+                <img src="../pdf/oficer/os8.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">11 / 24</div>
+                <img src="../pdf/oficer/os_komissarschevskaya.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">12 / 24</div>
+                <img src="../pdf/oficer/os_kupec_yalishev.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">13 / 24</div>
+                <img src="../pdf/oficer/os_luna-park.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">14 / 24</div>
+                <img src="../pdf/oficer/os_otkritkaXXc.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">15 / 24</div>
+                <img src="../pdf/oficer/Генеральный план участка, арендуемого Е.А. Шабельской 14 апреля 1901 г..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">16 / 24</div>
+                <img src="../pdf/oficer/Генеральный план участка, принадлежавший Демидовским учебным заведениям, 14 апр 1901.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">17 / 24</div>
+                <img src="../pdf/oficer/из газеты Речь, 1906 г., № 109 (25 июня.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">18 / 24</div>
+                <img src="../pdf/oficer/Офицерская_39_1.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">19 / 24</div>
+                <img src="../pdf/oficer/Офицерская_39_2.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">20 / 24</div>
+                <img src="../pdf/oficer/Офицерская_39_3.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">21 / 24</div>
+                <img src="../pdf/oficer/План партера театра (Офицерская ул., д. 39). 30 сентября 1882 г..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">22 / 24</div>
+                <img src="../pdf/oficer/План участка, принадлежавший Демидовским учебным заведениям 19 марта 1913 г..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">23 / 24</div>
+                <img src="../pdf/oficer/Фасад здания театра по Офицерской ул., д. 39. 3 мая 1882 г. (не сохр.).jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">24 / 24</div>
+                <img src="../pdf/oficer/Эскиз занавеса для театра В.Ф.Комиссаржевской. Л.С.Бакст. Ежегодник ОАХ, Вып. 2, 1907 г., С.5.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+            <span class="dot" onclick="currentSlide(13)"></span>
+            <span class="dot" onclick="currentSlide(14)"></span>
+            <span class="dot" onclick="currentSlide(15)"></span>
+            <span class="dot" onclick="currentSlide(16)"></span>
+            <span class="dot" onclick="currentSlide(17)"></span>
+            <span class="dot" onclick="currentSlide(18)"></span>
+            <span class="dot" onclick="currentSlide(19)"></span>
+            <span class="dot" onclick="currentSlide(20)"></span>
+            <span class="dot" onclick="currentSlide(21)"></span>
+            <span class="dot" onclick="currentSlide(22)"></span>
+            <span class="dot" onclick="currentSlide(23)"></span>
+            <span class="dot" onclick="currentSlide(24)"></span>
+        </div>
+
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>

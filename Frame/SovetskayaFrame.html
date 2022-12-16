@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        function HouseHistory() {
+            if (document.getElementById('HouseHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "block";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function LibraryHistory() {
+            if (document.getElementById('LibraryHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "block";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function PhotoGallary() {
+            if (document.getElementById('PhotoGallary').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="buttoninFrame">
+        <input class="buttonFrame" type="button" value="История дома" onClick="HouseHistory()"></input>
+        <input class="buttonFrame" type="button" value="История библиотеки" onClick="LibraryHistory()"></input>
+        <input class="buttonFrame" type="button" value="Фотогалерея" onClick="PhotoGallary()"></input>
+    </div>
+
+    <div id="HouseHistory" style="display:none">
+        <p>Исторический район, где сейчас находится Детская библиотека иностранной литературы (3-й филиал ЦГДБ им. А. С.
+            Пушкина), раньше назывался Пески: из-за песчаной гряды, которая протянулась вдоль Лиговского проспекта до
+            Суворовского проспекта, Невы, и далее по Охте. Гряда являлась отложением бывшего на этом месте моря. На тот
+            момент район Песков был самым высоким в Петербурге местом, благодаря чему никогда не затоплялся во время
+            наводнений.
+        </p>
+        <p> Именно в этом районе в 1882 году Александр Иванович Новинский, купец-меховщик, поставщик императорского
+            двора, принимает решение построить особняк для своей семьи. Благодаря этому решению заказ на строительство
+            дома получает государственный архитектор Н. Ф. Беккер.
+            Под руководством Беккера и был построен первый каменный особняк в районе. Дом, следует отметить, имел
+            хорошую отделку: дубовый тамбур, лепнину, паркетные и мозаичные полы, мраморные камины, изразцовые печи.
+            Снаружи – вазоны и крупные маскароны. Специальный переход соединял особняк с трехэтажным флигелем, где
+            располагались конюшня и прачечная.
+        </p>
+        <p>
+            С 1917 года в особняке располагались коммунальные квартиры.
+            В 80-х годах был проведен капитальный ремонт: были восстановлены планировка, лепнина, парадная лестница, был
+            заменен утраченный витраж с новыми изображениями богини Мнемозины.
+        </p>
+    </div>
+    <div id="LibraryHistory" style="display:none">
+        <p>С 1989 года в особняке располагается Детская библиотека иностранной литературы. [1, 2]
+            Известно, что библиотека основана в 1956 году. С 1979 года библиотека является филиалом № 3 Центральной
+            городской детской библиотеки им. А. С. Пушкина. С 1994 года библиотека специализируется на изучении и
+            комплектовании детской иностранной книги, как на языке оригинала, так и переводной. В фонде отдела
+            литературы на иностранных языках представлены книги на 30 языках народов мира, включая английский, немецкий,
+            французский, итальянский, испанский, китайский, нидерландский, шведский и другие. [1]
+        <p> Источники:</p>
+        <p> 1. История библиотеки. – Текст : электронный // ЦГДБ им. А. С. Пушкина. Детская библиотека иностранной
+            литературы. –2021. – URL: https://pushkinlib.spb.ru/about/biblioteka-inostrannoy-literatury/ (дата
+            обращения: 05.04.2021).</p>
+        <p>2. Особняк А. И. Новинского - Жилой дом - Библиотека зарубежной детской книги. – Текст : электронный //
+            CityWalls : архитектур. сайт Санкт-Петербурга. – 2007-2021. – URL: https://www.citywalls.ru/house10372.html
+            (дата обращения: 05.04.2021).</p>
+        </p>
+
+    </div>
+    <div id="PhotoGallary" style="display:none">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 17</div>
+                <img src="../pdf/Sovetskaya/15e74184efe1cbb8f25b3c5a64c8e9d4.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 17</div>
+                <img src="../pdf/Sovetskaya/39e0a9b085e498b3ff5a130e524850b5.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 17</div>
+                <img src="../pdf/Sovetskaya/5464564.png" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_149-152694.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_149-152695.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_149-152696.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_149-152697.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_149-152698.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_149-152699.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_152-156144.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">11 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_152-156145.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">12 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_152-156146.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">13 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_152-156147.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">14 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_216-222117.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">15 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_216-222118.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">16 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_39-40071.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">17 / 17</div>
+                <img src="../pdf/Sovetskaya/photo_79-81210.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+            <span class="dot" onclick="currentSlide(13)"></span>
+            <span class="dot" onclick="currentSlide(14)"></span>
+            <span class="dot" onclick="currentSlide(15)"></span>
+            <span class="dot" onclick="currentSlide(16)"></span>
+            <span class="dot" onclick="currentSlide(17)"></span>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>

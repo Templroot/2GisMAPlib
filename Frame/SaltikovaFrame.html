@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        function HouseHistory() {
+            if (document.getElementById('HouseHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "block";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function LibraryHistory() {
+            if (document.getElementById('LibraryHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "block";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function PhotoGallary() {
+            if (document.getElementById('PhotoGallary').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="buttoninFrame">
+        <input class="buttonFrame" type="button" value="История дома" onClick="HouseHistory()"></input>
+        <input class="buttonFrame" type="button" value="История библиотеки" onClick="LibraryHistory()"></input>
+        <input class="buttonFrame" type="button" value="Фотогалерея" onClick="PhotoGallary()"></input>
+    </div>
+
+    <div id="HouseHistory" style="display:none">
+        <p>Кирочная улица в Санкт-Петербурге проходит от Литейного проспекта до Новгородской улицы. Нумерация домов
+            ведется от Литейного проспекта.
+            Улица проложена в первой половине XVIII века на территории бывшей Литейной (Артиллерийской) слободы. Само
+            название «Кирочная» произошло от лютеранской кирхи (дом № 8 – лютеранская церковь Святой Анны (Анненкирхе)).
+            В 1932 году улица переименована в честь М. Е. Салтыкова-Щедрина, а в 1998 году ей вернули прежнее название.
+            [3]
+        <p> Дом № 61 на улице Салтыкова-Щедрина (ныне Кирочной) построен в 1964-1967 годах по проекту архитекторов
+            Добровольской А. В. И Уразова А. С.
+            Этот восьмиэтажный жилой дом кооператива «Красная Звезда» – одно из первых, появившихся в Ленинграде в
+            середине 1960-х годов. Первые жильцы – семьи военных и служащих советской армии. Проектная организация –
+            «Военпроект».</p>
+        <p>Стоит заметить, что изначально планировалась постройка семиэтажного дома высотой в пределах, установленных
+            ГлавАПУ. По предложению А. В. Добровольской высота чердака была сокращена, за счет чего был добавлен один
+            этаж без изменения общей высоты здания. Это увеличило жилую площадь и сократило ее стоимость. Лифты доходят
+            только до седьмого этажа, а блочные помещения расположены этажом выше. [1]</p>
+        <p>Интересно, что еще раньше планировалось сделать здание пятиэтажным в направлении неоклассицизма 1940-1950-х
+            годов, однако изменения политической и экономической ситуации в стране и архитектуре в 1955 году сделали
+            серьезные поправки первоначального плана. Именно поэтому здание построено в направлении прагматического
+            реализма 1960-1980-х годов.</p>
+
+
+
+        </p>
+    </div>
+    <div id="LibraryHistory" style="display:none">
+        <p>Предположительно, с середины 1960-х годов по 1975 год здесь, на первом этаже, располагалась детская
+            библиотека имени А. С. Пушкина. В 1976 году библиотека переехала в дом № 33 на Большой Морской улице.
+
+        </p>
+        <p>Источники:
+        <p>1. Жилой дом кооператива "Красная Звезда". – Текст : электронный // CityWalls : архитектурный сайт
+            Санкт-Петербурга. – 2007-2021. – URL: https://www.citywalls.ru/house9696.html (дата обращения: 25.03.2021).
+        </p>
+        <p>2. Максименков, А. Г. Детская библиотека им. А. С. Пушкина / А. Г. Максименков. – [б. м.] : Издательские
+            решения, 2018. – 146 с. : ил. – ISBN 978-5-4493-5279-8. – Текст : непосредственный.</p>
+        <p>3. Список домов, по улице Кирочной. – Текст : электронный // Prawdom. –2021. – URL:
+            https://prawdom.ru/nsk.php?nse=Kirochnaja%20spb (дата обращения: 25.03.2021).</p>
+        </p>
+
+    </div>
+    <div id="PhotoGallary" style="display:none">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 16</div>
+                <img src="../pdf/Saltikova/Дворовые фасады..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 16</div>
+                <img src="../pdf/Saltikova/е4543534535.png" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_1.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_10.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_11.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_12.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_13.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_14.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_2.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_3.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">11 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_4.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">12 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_5.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">13 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_6.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">14 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_7.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">15 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_8.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">16 / 16</div>
+                <img src="../pdf/Saltikova/Кирочная_61_9.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+            <span class="dot" onclick="currentSlide(13)"></span>
+            <span class="dot" onclick="currentSlide(14)"></span>
+            <span class="dot" onclick="currentSlide(15)"></span>
+            <span class="dot" onclick="currentSlide(16)"></span>
+
+        </div>
+
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        function HouseHistory() {
+            if (document.getElementById('HouseHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "block";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function LibraryHistory() {
+            if (document.getElementById('LibraryHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "block";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function PhotoGallary() {
+            if (document.getElementById('PhotoGallary').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="buttoninFrame">
+        <input class="buttonFrame" type="button" value="История дома" onClick="HouseHistory()"></input>
+        <input class="buttonFrame" type="button" value="История библиотеки" onClick="LibraryHistory()"></input>
+        <input class="buttonFrame" type="button" value="Фотогалерея" onClick="PhotoGallary()"></input>
+    </div>
+
+    <div id="HouseHistory" style="display:none">
+        <p>Дом номер 104 на Садовой улице был построен в 1900 году по проекту архитекторов Кондратьева В. П. и
+            Кондратьева С. П. В пятиэтажном здании в духе поздней эклектики располагался Дом общества помощи бедным при
+            Покровской церкви. При этом большую часть денег для постройки выделила кронштадтская купчиха В. Ф.
+            Филиппова. На первом этаже была размещена бесплатная столовая, на втором находился приют и богадельня,
+            третий и четвертый этажи заняли приют для мальчиков и девочек, а пятый принадлежал церковно-приходской
+            школе.
+            Владимир Петрович Кондратьев приобрел известность строительством первых в России домов-коммун. Лучшим таким
+            домом считается дом № 31 на Смоленской улице, построенный в 1904 году. Владимир Петрович начинал как
+            техник-строитель, затем, благодаря помощи старшего брата, гражданского инженера Сергея Петровича Кондратьева
+            (опытного архитектора и педагога), получил широкие знания проектного дела.
+        </p>
+
+    </div>
+    <div id="LibraryHistory" style="display:none">
+        <p>С 1920 года в здании располагалась бывшая коммунальная библиотека им. А. С. Грибоедова. Однако в следующем
+            году в дом переехала детская библиотека 2-го городского района (впоследствии – ЦГДБ им. А. С. Пушкина). В
+            тот момент заведующие библиотекой часто менялись. По сведениям за 25 сентября 1922 года, заведующей
+            библиотекой была Арепьева Елена Петровна. Тогда же в состав сотрудников библиотеки входили: библиотекарь
+            Токай М. К. (предположительно) и уборщица. Возглавляла библиотеку Арсеньева.
+            В 1923 году библиотека переехала на новый адрес: Мастерская ул., дом № 10. Переезд состоялся в связи с тем,
+            что дом № 104 на Садовой был полностью передан под Домпросвет № 4 им. Бухарина, который также включил в свой
+            состав бывшую коммунальную библиотеку им. А. С. Грибоедова, в 1924 году переименованную в библиотеку им.
+            Бухарина.
+            В разное время в доме располагались: 8-я вечерняя школа им. Бухарина, 39-я неполная средняя школа Ленгороно
+            Октябрьского района и школа № 231 Октябрьского района. Причем в 1944 году ученики школы № 231 составляли
+            большую часть читателей детской библиотеки наряду со школой № 237 (набережная реки Мойки, дом № 90).
+        </p>
+
+        <a href="../pdf/Sadovaya/LibraryHistorySadovaya.pdf" target="_blank">Читать далее...</a>
+
+    </div>
+    <div id="PhotoGallary" style="display:none">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 12</div>
+                <img src="../pdf/Sadovaya/Дом Покровского Благотворительного Общества 2.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 12</div>
+                <img src="../pdf/Sadovaya/Дом Покровского Благотворительного Общества.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 12</div>
+                <img src="../pdf/Sadovaya/Садовая_104_1.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 12</div>
+                <img src="../pdf/Sadovaya/Садовая_104_2.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 12</div>
+                <img src="../pdf/Sadovaya/Садовая_104_3.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 12</div>
+                <img src="../pdf/Sadovaya/Садовая_104_4.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 12</div>
+                <img src="../pdf/Sadovaya/Садовая_104_5.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 12</div>
+                <img src="../pdf/Sadovaya/Садовая_104_6.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 12</div>
+                <img src="../pdf/Sadovaya/Садовая_104_7.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 10</div>
+                <img src="../pdf/Sadovaya/Садовая_104_8.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">11 / 12</div>
+                <img src="../pdf/Sadovaya/Садовая_104_9.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">12 / 12</div>
+                <img src="../pdf/Sadovaya/Яндекс.Карты_Садовая_104.png" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>

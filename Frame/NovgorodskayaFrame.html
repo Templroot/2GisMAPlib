@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        function HouseHistory() {
+            if (document.getElementById('HouseHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "block";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function LibraryHistory() {
+            if (document.getElementById('LibraryHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "block";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function PhotoGallary() {
+            if (document.getElementById('PhotoGallary').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="buttoninFrame">
+        <input class="buttonFrame" type="button" value="История дома" onClick="HouseHistory()"></input>
+        <input class="buttonFrame" type="button" value="История библиотеки" onClick="LibraryHistory()"></input>
+        <input class="buttonFrame" type="button" value="Фотогалерея" onClick="PhotoGallary()"></input>
+    </div>
+
+    <div id="HouseHistory" style="display:none">
+        <p>Дом номер 5 на Новгородской улице был построен в 1956 году по проекту архитектора А. В. Васильева в стиле
+            сталинского неоклассицизма.
+        </p>
+        <p> С 1962 года в здании располагалась Юношеская библиотека Смольнинского района. С 1973 года в доме находилась
+            бакалея № 19 – специальные магазины райпищеторгов. С 1976 года в здании работал Детский сад Смольнинского
+            района № 40. [1]
+        </p>
+
+    </div>
+    <div id="LibraryHistory" style="display:none">
+        <p>С 2002 года в доме № 5 расположена одна из старейших детских библиотек города с универсальным фондом,
+            основанная в 1918 году. С 1979 года библиотека – филиал № 4 ЦГДБ им. А. С. Пушкина. Ее приоритетным
+            направлением деятельности является воспитание активной гражданской позиции юного петербуржца, пробуждение
+            интереса к истории Родины через развернутую систему историко-патриотического воспитания. Библиотекой создана
+            уникальная рукописная книга «Священная память моей семьи», в которую вошли заметки, рассказы, статьи детей,
+            посвященные их родственникам – участникам Великой Отечественной войны и героическим труженикам тыла. В
+            библиотеке разнообразные формы интерактивной работы – устные журналы для младших школьников, тематические
+            литературно-музыкальные вечера по темам, волнующим современного ребенка и подростка. Фонд библиотеки: более
+            57 000 экземпляров. [2, 3]
+        <p> Источники:</p>
+        <p>1. Жилой дом. – Текст : электронный // CityWalls : архитектур. сайт Санкт-Петербурга. – 2007-2021. – URL:
+            https://www.citywalls.ru/house4520.html (дата обращения: 05.04.2021).</p>
+        <p>2. История библиотеки. – Текст : электронный // ЦГДБ им. А. С. Пушкина. Филиал № 4. –2021. – URL:
+            https://pushkinlib.spb.ru/about/cgdb-im-a-s-pushkina-filial/ (дата обращения: 05.04.2021).</p>
+        </p>
+        <p>3. История по кирпичику : к 95-летию ЦГДБ им. А. С. Пушкина / общ. ред. Н. Н. Мазняк ; сост. В. К. Кузнецов,
+            Т. А. Синкевич ; худож. А. И. Дворникова. – Санкт-Петербург : Ком. по культуре Санкт-Петербурга ; СПБ ГБУК
+            «ЦГДБ им. А. С. Пушкина», Отд. автоматизации, 2016. – 98 с. : ил. – 300 экз. – Текст : непосредственный.
+        </p>
+
+    </div>
+    <div id="PhotoGallary" style="display:none">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 34</div>
+                <img src="../pdf/Novgorodskaya/0125a3ce76bcbd18d24e1efaa4f9c36c.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 34</div>
+                <img src="../pdf/Novgorodskaya/453454353.png" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 34</div>
+                <img src="../pdf/Novgorodskaya/5348024593317981_8bbf.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 34</div>
+                <img src="../pdf/Novgorodskaya/5a8c97734c7f1119087f099c400dba45.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 34</div>
+                <img src="../pdf/Novgorodskaya/5b3e40fcabcda971f111b1c6211f43ed7e8c6864.jpeg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 34</div>
+                <img src="../pdf/Novgorodskaya/5d416cf1e7696a39fa4c6799.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 34</div>
+                <img src="../pdf/Novgorodskaya/6082670019.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 34</div>
+                <img src="../pdf/Novgorodskaya/f3aa384b375c04a4f2fd49070070673200.jpeg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_141-144685.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_141-144686.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">11 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_170-174871.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">12 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_170-174872.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">13 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_170-174873.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">14 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_19-20445.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">15 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_19-20447.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">16 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_19-20448.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">17 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_19-20450.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">18 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_19-20451.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">19 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_19-20452.jpg"
+                    style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">20 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_19-20453.jpg"
+                    style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">21 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_340-349148.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">22 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_391-401344.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">23 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_391-401345.jpg"
+                    style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">24 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_481-492871.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">25 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_481-492877.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">26 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_84-86229.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">27 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_84-86232.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">28 / 34</div>
+                <img src="../pdf/Novgorodskaya/photo_84-86233.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">29 / 34</div>
+                <img src="../pdf/Novgorodskaya/Двор..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">30 / 34</div>
+                <img src="../pdf/Novgorodskaya/Детали фасада..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">31 / 34</div>
+                <img src="../pdf/Novgorodskaya/Ремонт фасадов.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">32 / 34</div>
+                <img src="../pdf/Novgorodskaya/Фасад по Новгородской ул..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">33 / 34</div>
+                <img src="../pdf/Novgorodskaya/Фасад с аркой по Старорусской ул..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">34 / 34</div>
+                <img src="../pdf/Novgorodskaya//Фасады после ремонта.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+            <span class="dot" onclick="currentSlide(13)"></span>
+            <span class="dot" onclick="currentSlide(14)"></span>
+            <span class="dot" onclick="currentSlide(15)"></span>
+            <span class="dot" onclick="currentSlide(16)"></span>
+            <span class="dot" onclick="currentSlide(17)"></span>
+            <span class="dot" onclick="currentSlide(18)"></span>
+            <span class="dot" onclick="currentSlide(19)"></span>
+            <span class="dot" onclick="currentSlide(20)"></span>
+            <span class="dot" onclick="currentSlide(21)"></span>
+            <span class="dot" onclick="currentSlide(22)"></span>
+            <span class="dot" onclick="currentSlide(23)"></span>
+            <span class="dot" onclick="currentSlide(24)"></span>
+            <span class="dot" onclick="currentSlide(25)"></span>
+            <span class="dot" onclick="currentSlide(26)"></span>
+            <span class="dot" onclick="currentSlide(27)"></span>
+            <span class="dot" onclick="currentSlide(28)"></span>
+            <span class="dot" onclick="currentSlide(29)"></span>
+            <span class="dot" onclick="currentSlide(30)"></span>
+            <span class="dot" onclick="currentSlide(31)"></span>
+            <span class="dot" onclick="currentSlide(32)"></span>
+            <span class="dot" onclick="currentSlide(33)"></span>
+            <span class="dot" onclick="currentSlide(34)"></span>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>

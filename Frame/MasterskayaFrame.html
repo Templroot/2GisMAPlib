@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        function HouseHistory() {
+            if (document.getElementById('HouseHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "block";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function LibraryHistory() {
+            if (document.getElementById('LibraryHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "block";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function PhotoGallary() {
+            if (document.getElementById('PhotoGallary').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="buttoninFrame">
+        <input class="buttonFrame" type="button" value="История дома" onClick="HouseHistory()"></input>
+        <input class="buttonFrame" type="button" value="История библиотеки" onClick="LibraryHistory()"></input>
+        <input class="buttonFrame" type="button" value="Фотогалерея" onClick="PhotoGallary()"></input>
+    </div>
+
+    <div id="HouseHistory" style="display:none">
+        <p>Доходный дом № 10 на Мастерской улице был построен по проекту архитектора Богуслава Богуславовича Гейденрейха
+            в 1856 году. Часть доходного дома по улице Союза Печатников в 1889 году построил архитектор Антон Сергеевич
+            Лыткин (в том же доме получил квартиру заведующий детской библиотекой А. Г. Островский).
+            С 1869 году участок № 18 (улица Союза Печатников) принадлежит Поповой, с 1875 года – Голубинскому. Все это
+            время участок № 20 (он же по Малой Мастерской, 10) принадлежит Гейденрейху. Однако уже с 1889 года оба
+            участка принадлежат Богуславу Богуславовичу, проживающим указан практикующий врач Федор Богуславович
+            Гейденрейх.
+            3 ноября 1896 года Гейденрейх скончался. Похоронен на Тихвинском кладбище Александро-Невской лавры, рядом с
+            супругой Александрой Федоровной, ушедшей из жизни в марте 1892 года. При этом Гейденрейх продолжает
+            числиться владельцем участков вплоть до 1898 года. В справочнике за 1899 год уже указаны наследники: Федор
+            Богуславович и Мария Богуславовна Гейденрейх, графиня Любовь Богуславовна Ребиндер, Надежда Богуславовна
+            Стерлигова, Елизавета Богуславовна Фриш и Александра Богуславовна Леман. Так, домовладение оставалось в
+            собственности наследников до 1917 года. В год революции владельцами дома являются: Мария Реньер, Надежда
+            Стерлигова, Елизавета Фриш и Александра Леман.
+        </p>
+    </div>
+    <div id="LibraryHistory" style="display:none">
+        <p>В августе 1923 года в доме разместилась 2-я центральная детская библиотека, которой в ноябре-декабре
+            следующего года было присвоено имя великого русской поэта Александра Сергеевича Пушкина. [2, 3]
+            В начале войны вместо А. И. Вукотич заведующей библиотекой была назначена Е. Д. Парышева. Уже 1 сентября
+            1941 года, когда сеть школьных и районных библиотек сократилась, возрос объем работы библиотекарей районных
+            библиотек. Это связано с расширением работы абонемента, появлением передвижных библиотек в домохозяйствах.
+            При этом, несмотря на обстрелы, количество читателей детской библиотеки им. А. С. Пушкина доходило вплоть до
+            810 человек. Абонемент и читальный зал работали до ноября.
+            Сотрудники библиотеки продолжали проводить и организовывать беседы, читки, выставки и лекции в госпитале и
+            бомбоубежищах, школах и воинских частях. [1]
+            Постепенно, на фоне артиллерийских обстрелов, голода и холода, посещаемость библиотеки падала. Для
+            сравнения: осенью 1940 года средняя посещаемость составляла 292 читателя в день, в сентябре 1941 года – 195
+            человек, в октябре – 155 человек, в ноябре – 95 читателей в день. В декабре 1942 года посещаемость в среднем
+            составляла 50-60 человек в день.
+            Другой проблемой было отсутствие дров для растопки. Так, в помещениях температура опускалась ниже нуля. И
+            все это на фоне увеличения передвижных библиотек и активной ежедневной библиотечной работы с фондами и
+            читателями. Обеспечивать книгами, главным образом, необходимо было и действующие школы (в том числе школы №
+            244 и № 245), чтобы учащиеся получали все необходимые знания.
+            3 января 1942 года библиотека погибла от пожара, начавшегося в 6 часов 45 минут в многоквартирном доме по
+            улице Союза Печатников. В документах об этом событии сказано следующее:
+        </p>
+
+        <a href="../pdf/Masterskaya/LibraryHistoryMasterskaya.pdf" target="_blank">Читать далее...</a>
+
+    </div>
+    <div id="PhotoGallary" style="display:none">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_1.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_10.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_11.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_12.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_13.jpg " style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_14.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_2.png" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_3.png" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_4.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_5.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">11 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_6.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">12 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_7.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">13 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_8.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">14 / 14</div>
+                <img src="../pdf/Masterskaya/Мастерская_10_9.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+            <span class="dot" onclick="currentSlide(13)"></span>
+            <span class="dot" onclick="currentSlide(14)"></span>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>

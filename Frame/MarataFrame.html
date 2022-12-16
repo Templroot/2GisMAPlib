@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        function HouseHistory() {
+            if (document.getElementById('HouseHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "block";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function LibraryHistory() {
+            if (document.getElementById('LibraryHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "block";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function PhotoGallary() {
+            if (document.getElementById('PhotoGallary').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="buttoninFrame">
+        <input class="buttonFrame" type="button" value="История дома" onClick="HouseHistory()"></input>
+        <input class="buttonFrame" type="button" value="История библиотеки" onClick="LibraryHistory()"></input>
+        <input class="buttonFrame" type="button" value="Фотогалерея" onClick="PhotoGallary()"></input>
+    </div>
+
+    <div id="HouseHistory" style="display:none">
+        <p>
+        <p>В феврале 1904 года создается Торгово-промышленное товарищество «Ф. Г. Бажанов и А. П. Чувалдина» –
+            акционерное общество на паях. Общество – преемник торгового товарищества «В. И. Чувалдина преемники»,
+            располагавшегося на Гороховой улице (дом № 56).</p>
+        <p> В 1905 году сотрудники товарищества заполнили анкеты с указанием сведений об имеющемся у них жилище с
+            указанием адреса, характеристики жилых помещений и платы за них, состава семьи, расстоянии от места работы,
+            транспорта и времени, затрачиваемого на дорогу.</p>
+        <p>30 июня 1906 года у действительного статского советника М. Н. Журавлева был приобретен участок на
+            Николаевской улице (ныне улица Марата). Каменный дом и служебные постройки на участке подлежали сносу.
+            Изначально разработка дома была поручена гражданскому инженеру Б. И. Конецкому, однако он в октябре 1906
+            года скончался. Конецкий успел выполнить эскизы поэтажных планов. Тогда товарищество обратилось к услугам
+            гражданского инженера П. Ф. Алешина. Интересно, что в 1905 году Алешин под руководством Конецкого выполнил
+            конкурсный проект здания реального училища для города Вятки.</p>
+        <p> Уже в конце 1906 года Алешин приступил к работе над проектом. 12 февраля 1907 года проект дома был утвержден
+            техническим отделом Петербургской городской управы. Так, по условиям заказчика, в здании должны были
+            разместиться апартаменты директора-распорядителя, служебные помещения правления с залом для заседаний,
+            тридцать квартир служащих товарищества (от 3 до 8 комнат в каждой), общежитие для молодых сотрудников и
+            артельщиков с кухней и столовой, кладовые для хранения товаров, прачечные и различные хозяйственные службы.
+            Другим условием был полный отказ от темных помещений и высоких корпусов.</p>
+
+        </p>
+        <a href="../pdf/Marata/HouseHistoryMarata.pdf" target="_blank">Читать далее...</a>
+    </div>
+    <div id="LibraryHistory" style="display:none">
+        <p>С лета 1984 года и по настоящее время по адресу ул. Марата, дом № 72, в бывшем Доме Бажанова – памятнике
+            архитектуры федерального значения, располагается Детская библиотека истории и культуры Петербурга – 2-й
+            филиал ЦГДБ им. А. С. Пушкина. С 1999 года библиотека развивается как петербурговедческая, а в 2001 году она
+            получила официально свой новый статус Детской библиотеки истории и культуры Петербурга. В доме на Марата, д.
+            № 72, сложилась уникальная среда обитания и восприятия, в которой библиотечное и музейное пространство живут
+            в гармоничном единстве. [2]
+        <p> Источники:</p>
+        <p> 1. Дом торгово-промышленного товарищества "Бажанов и Чувалдина" (Дом Бажанова) (начало). – Текст :
+            электронный // CityWalls : архитектур. сайт Санкт-Петербурга. – 2007-2021. – URL:
+            https://www.citywalls.ru/house5245.html (дата обращения: 05.04.2021).</p>
+        <p>2. История по кирпичику : к 95-летию ЦГДБ им. А. С. Пушкина / общ. ред. Н. Н. Мазняк ; сост. В. К. Кузнецов,
+            Т. А. Синкевич ; худож. А. И. Дворникова. – Санкт-Петербург : Ком. по культуре Санкт-Петербурга ; СПБ ГБУК
+            «ЦГДБ им. А. С. Пушкина», Отд. автоматизации, 2016. – 98 с. : ил. – 300 экз. – Текст : непосредственный.</p>
+        </p>
+    </div>
+    <div id="PhotoGallary" style="display:none">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 21</div>
+                <img src="../pdf/Marata/1.JPG" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 21</div>
+                <img src="../pdf/Marata/172414_2.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 21</div>
+                <img src="../pdf/Marata/1880-8346328-182a.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 21</div>
+                <img src="../pdf/Marata/198706_cover.jpg.1050x700_q95_crop_upscale.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 21</div>
+                <img src="../pdf/Marata/1IMGP9609.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 21</div>
+                <img src="../pdf/Marata/5464564564.png" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 21</div>
+                <img src="../pdf/Marata/740780_900.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 21</div>
+                <img src="../pdf/Marata/hause5b.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 21</div>
+                <img src="../pdf/Marata/IMG_3038.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 21</div>
+                <img src="../pdf/Marata/marata72.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">11 / 21</div>
+                <img src="../pdf/Marata/photo_138-141397.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">12 / 21</div>
+                <img src="../pdf/Marata/photo_22-22937.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">13 / 21</div>
+                <img src="../pdf/Marata/photo_22-22942.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">14 / 21</div>
+                <img src="../pdf/Marata/photo_233-239413.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">15 / 21</div>
+                <img src="../pdf/Marata/photo_233-239414.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">16 / 21</div>
+                <img src="../pdf/Marata/photo_233-239415.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">17 / 21</div>
+                <img src="../pdf/Marata/photo_233-239416.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">18 / 21</div>
+                <img src="../pdf/Marata/photo_233-239417.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">19 / 21</div>
+                <img src="../pdf/Marata/photo_233-239418.jpg"
+                    style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">20 / 21</div>
+                <img src="../pdf/Marata/Архитектор П.Ф. Алешин..jpg"
+                    style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">21 / 21</div>
+                <img src="../pdf/Marata/Фото 1910-х гг..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+            <span class="dot" onclick="currentSlide(13)"></span>
+            <span class="dot" onclick="currentSlide(14)"></span>
+            <span class="dot" onclick="currentSlide(15)"></span>
+            <span class="dot" onclick="currentSlide(16)"></span>
+            <span class="dot" onclick="currentSlide(17)"></span>
+            <span class="dot" onclick="currentSlide(18)"></span>
+            <span class="dot" onclick="currentSlide(19)"></span>
+            <span class="dot" onclick="currentSlide(20)"></span>
+            <span class="dot" onclick="currentSlide(21)"></span>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>

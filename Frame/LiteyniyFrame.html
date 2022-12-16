@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        function HouseHistory() {
+            if (document.getElementById('HouseHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "block";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function LibraryHistory() {
+            if (document.getElementById('LibraryHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "block";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function PhotoGallary() {
+            if (document.getElementById('PhotoGallary').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="buttoninFrame">
+        <input class="buttonFrame" type="button" value="История дома" onClick="HouseHistory()"></input>
+        <input class="buttonFrame" type="button" value="История библиотеки" onClick="LibraryHistory()"></input>
+        <input class="buttonFrame" type="button" value="Фотогалерея" onClick="PhotoGallary()"></input>
+    </div>
+
+    <div id="HouseHistory" style="display:none">
+        <p>Территория домов № 18 и № 20 по Моховой ул., и № 17 и № 19 по Литейному пр. составляли в 1730-х годах одну
+            обширную Усадьбу генерала А. И. Ушакова. В конце XVIII века столь обширный участок вдоль Литейной ул.
+            принадлежал управляющему Колыванскими рудниками, генерал-лейтенанту Б. И. Меллеру. Часть участка вдоль
+            Литейной еще не была застроена.
+        <p>В 1799 году участок купил инженер-полковник Х. И. Трузсон. К 1804 году на участке был построен каменный
+            двухэтажный дом. Однако стоит заметить, что изначально лицевой фасад был более узким, позднее к нему с обеих
+            сторон сделали пристройки.</p>
+        <p>После смерти Х. И. Трузсона в 1813 году домом на протяжении семи лет владели его наследники. Позднее он
+            перешел к вдове военного министра П. И. Меллера-Закомельского. К началу 1840-х годов его купил князь А. К.
+            Любомирский. Семья Любомирских планировала перестроить дом, однако позже отказалась от затеи и продала дом
+            князю П. А. Урусову.</p>
+        <p>Урусов в свою очередь, благодаря проекту архитектора Л. Ф. Вендрамини, осуществил перестройку дома к 1848
+            году. Здание было перестроено в стиле рококо.</p>
+        <p>1 июня 1856 года особняк был приобретен графом А. И. Мусиным-Пушкиным. Братья Алексей и Александр
+            Мусины-Пушкины были друзьями детства Л. Н. Толстого, который вывел их под именами братьев Ивиных в повести
+            «Детство». Братья владели домом до революции.</p>
+
+
+        </p>
+    </div>
+    <div id="LibraryHistory" style="display:none">
+        <p>Существует предположение, что после войны в здании располагалась библиотека «Семья и книга», которая
+            впоследствии стала филиалом Центральной городской детской библиотеки им. А. С. Пушкина. Библиотека в конце
+            1960-х годов впоследствии переехала в дом № 27 по Маяковской улице. [2]
+        <p> Источники:</p>
+        <p> 1. Дом Х. И.Трузсона - Особняк князя П. А. Урусова - Особняк Мусиных-Пушкиных - Центральная библиотека им.
+            Лермонтова. – Текст : электронный // CityWalls : архитектур. сайт Санкт-Петербурга. – 2007-2021. – URL:
+            https://www.citywalls.ru/house1842.html (дата обращения: 02.04.2021).</p>
+        <p>2. История библиотеки. – Текст : электронный // ЦГДБ им. А. С. Пушкина. Библиотека "Семья и книга". –2021. –
+            URL: https://pushkinlib.spb.ru/about/biblioteka-semya-i-kniga/ (дата обращения: 05.04.2021).</p>
+        </p>
+    </div>
+    <div id="PhotoGallary" style="display:none">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 21</div>
+                <img src="../pdf/Liteyniy/132421_1.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 21</div>
+                <img src="../pdf/Liteyniy/24120533.1.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 21</div>
+                <img src="../pdf/Liteyniy/2587.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 21</div>
+                <img src="../pdf/Liteyniy/2687196563.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 21</div>
+                <img src="../pdf/Liteyniy/32095037122_c2a7e0f1d7_b.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 21</div>
+                <img src="../pdf/Liteyniy/45435345353.png" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 21</div>
+                <img src="../pdf/Liteyniy/5102_cover.jpg.1050x700_q95_crop_upscale.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 21</div>
+                <img src="../pdf/Liteyniy/5619108.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 21</div>
+                <img src="../pdf/Liteyniy/858x540.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 21</div>
+                <img src="../pdf/Liteyniy/92059a6072818e98244982ed0260401e.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">11 / 21</div>
+                <img src="../pdf/Liteyniy/Liteiny prospekt 17 19 Saint-Petersburg..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">12 / 21</div>
+                <img src="../pdf/Liteyniy/litey19b.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">13 / 21</div>
+                <img src="../pdf/Liteyniy/photo_10-10366.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">14 / 21</div>
+                <img src="../pdf/Liteyniy/photo_182-186554.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">15 / 21</div>
+                <img src="../pdf/Liteyniy/photo_419-429121.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">16 / 21</div>
+                <img src="../pdf/Liteyniy/photo_95-97455.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">17 / 21</div>
+                <img src="../pdf/Liteyniy/photo_95-97456.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">18 / 21</div>
+                <img src="../pdf/Liteyniy/XXL.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">19 / 21</div>
+                <img src="../pdf/Liteyniy/Дворик..jpg"
+                    style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">20 / 21</div>
+                <img src="../pdf/Liteyniy/Реконструкция здания в конце 1970-х..jpg"
+                    style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">21 / 21</div>
+                <img src="../pdf/Liteyniy/ЦГИА СПб ф.515 оп.4 д.463.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+            <span class="dot" onclick="currentSlide(13)"></span>
+            <span class="dot" onclick="currentSlide(14)"></span>
+            <span class="dot" onclick="currentSlide(15)"></span>
+            <span class="dot" onclick="currentSlide(16)"></span>
+            <span class="dot" onclick="currentSlide(17)"></span>
+            <span class="dot" onclick="currentSlide(18)"></span>
+            <span class="dot" onclick="currentSlide(19)"></span>
+            <span class="dot" onclick="currentSlide(20)"></span>
+            <span class="dot" onclick="currentSlide(21)"></span>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>

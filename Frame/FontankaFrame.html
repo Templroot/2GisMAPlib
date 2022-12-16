@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        function HouseHistory() {
+            if (document.getElementById('HouseHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "block";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function LibraryHistory() {
+            if (document.getElementById('LibraryHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "block";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function PhotoGallary() {
+            if (document.getElementById('PhotoGallary').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="buttoninFrame">
+        <input class="buttonFrame" type="button" value="История дома" onClick="HouseHistory()"></input>
+        <input class="buttonFrame" type="button" value="История библиотеки" onClick="LibraryHistory()"></input>
+        <input class="buttonFrame" type="button" value="Фотогалерея" onClick="PhotoGallary()"></input>
+    </div>
+
+    <div id="HouseHistory" style="display:none">
+        <p>По примеру Московского купеческого общества Санкт-Петербургское купеческое общество выделило средства на
+            постройку своего, Петровского торгово-коммерческого училища, открытие которого состоялось в октябре 1880
+            года. Здание училища (наб. реки Фонтанки, дом № 62) сохранилось до наших дней.
+            С 1883 года училище было под покровительством Его императорского Величества Александра Александровича и ее
+            императорского Величества государыни императрицы Марии Александровны.
+            30 мая 1885 года, в честь дня рождения Петра I, был проведен первый выпуск учащихся. По Уставу, училище
+            давало своим воспитанникам общее среднее и коммерческое образование для занятий торгово-промышленной
+            деятельностью. В училище принимались юноши от 10 до 12 лет. Общее количество учащихся составляло до 600
+            человек, классы – до 40 человек. Состав учащихся состоял из дворян, мещан, иностранцев, выходцев из семей
+            духовенства, купеческих семей и крестьянских. Шесть лет проходила общеобразовательная подготовка и два
+            последующих года – подготовка по специальным предметам. Параллельно изучалось три иностранных языка.
+            Петровское училище было главным среди коммерческих училищ и торговых школ Санкт-Петербурга. В 1900 году
+            училище удостоили золотой медали на Всемирной выставке в Париже за достижения в воспитании и обучении
+            учащихся. В свою очередь выпускникам Петровского торгово-коммерческого училища, окончившим обучение с
+            отличным аттестатом, присваивалось звание почетного гражданина Санкт-Петербурга.
+            После 33 выпуска учащихся, в 1918 году, Петровское училище закрылось.
+            В 1923 году в здании училища открыли школу торгово-кооперативного ученичества. Только в годы Гражданской
+            войны и Великой Отечественной войны деятельность учреждения временно приостанавливалась.
+            На протяжении всего XX века Петровским училищем, профессионально-техническим училищем и лицеем было
+            подготовлено и выпущено более 50 000 специалистов торговли.
+
+        </p>
+    </div>
+    <div id="LibraryHistory" style="display:none">
+        <p>С 50-х годов XX века и по сегодняшний день в здании располагается средняя общеобразовательная школа
+            Центрального района № 206. [1]
+            Детская библиотека истории и культуры Петербурга, ныне 2-й филиал ЦГДБ им. А. С. Пушкина, основана в 1934
+            году. В 1943-1944 годах здание библиотеки было законсервировано. Библиотека возобновила свою деятельность в
+            марте 1944 года. С лета 1984 года по настоящее время библиотека располагается по адресу: ул. Марата, дом №
+            72. [2, 3]
+
+        <p>Источники:</p>
+        <p> 1. Петровское торгово-коммерческое училище купеческого общества - Школа N206 Центрального района. – Текст :
+            электронный // CityWalls : архитектур. сайт Санкт-Петербурга. – 2007-2021. – URL:
+            https://www.citywalls.ru/house2547.html (дата обращения: 05.04.2021).</p>
+        <p>2. История библиотеки. – Текст : электронный // ЦГДБ им. А. С. Пушкина. Детская библиотека истории и
+            культуры Петербурга. –2021. – URL: https://pushkinlib.spb.ru/about/biblioteka-istorii-i-kultury-peterburga/
+            (дата обращения: 05.04.2021).</p>
+        <p> 3. История по кирпичику : к 95-летию ЦГДБ им. А. С. Пушкина / общ. ред. Н. Н. Мазняк ; сост. В. К. Кузнецов,
+            Т. А. Синкевич ; худож. А. И. Дворникова. – Санкт-Петербург : Ком. по культуре Санкт-Петербурга ; СПБ ГБУК
+            «ЦГДБ им. А. С. Пушкина», Отд. автоматизации, 2016. – 98 с. : ил. – 300 экз. – Текст : непосредственный.
+        </p>
+        </p>
+    </div>
+    <div id="PhotoGallary" style="display:none">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 13</div>
+                <img src="../pdf/Fontanka/5348024589838758_4102.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 13</div>
+                <img src="../pdf/Fontanka/56456464.png" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 13</div>
+                <img src="../pdf/Fontanka/58034.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 13</div>
+                <img src="../pdf/Fontanka/64565464564.png" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 13</div>
+                <img src="../pdf/Fontanka/photo_42-43675.jpg " style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 13</div>
+                <img src="../pdf/Fontanka/photo_42-43680.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 13</div>
+                <img src="../pdf/Fontanka/photo_42-43681.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 13</div>
+                <img src="../pdf/Fontanka/photo_42-43682.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 13</div>
+                <img src="../pdf/Fontanka/photo_97-99908.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 13</div>
+                <img src="../pdf/Fontanka/Первый двор, левая сторона.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">11 / 13</div>
+                <img src="../pdf/Fontanka/Петровское Училище Купеческого общества. Старая открытка..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">12 / 13</div>
+                <img src="../pdf/Fontanka/Петровское училище. Фото начала ХХ в..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">13 / 13</div>
+                <img src="../pdf/Fontanka/Правая сторона.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+            <span class="dot" onclick="currentSlide(13)"></span>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>

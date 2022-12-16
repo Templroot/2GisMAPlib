@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        function HouseHistory() {
+            if (document.getElementById('HouseHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "block";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function LibraryHistory() {
+            if (document.getElementById('LibraryHistory').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "block";
+                document.getElementById('PhotoGallary').style.display = "none";
+            }
+        }
+        function PhotoGallary() {
+            if (document.getElementById('PhotoGallary').style.display == "none") {
+                document.getElementById('HouseHistory').style.display = "none";
+                document.getElementById('LibraryHistory').style.display = "none";
+                document.getElementById('PhotoGallary').style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="buttoninFrame">
+        <input class="buttonFrame" type="button" value="История дома" onClick="HouseHistory()"></input>
+        <input class="buttonFrame" type="button" value="История библиотеки" onClick="LibraryHistory()"></input>
+        <input class="buttonFrame" type="button" value="Фотогалерея" onClick="PhotoGallary()"></input>
+    </div>
+
+    <div id="HouseHistory" style="display:none">
+        <p>Здание было построено в 1830 году по заказу купца второй гильдии П. В. Лесникова. В 1836 году по проекту
+            архитектора А. И. Мельникова проводилась надстройка здания. В 1858 году дом переходит во владение поручика
+            Александра Константиновича Мясникова.
+        </p>
+        <p> В начале XX века в здании находилось Общество ревнителей русского исторического просвещения –
+            Археографическая комиссия, образованная в 1834 году. Комиссия занималась поиском и изданием исторических
+            документов. До революции в деятельности комиссии принимали участие: Н. В. Калачов, А. С. Лаппа-Данилевский,
+            С. Ф. Платонов, А. Ф. Бычков, И. А. Бычков и другие. В советское время общество входило в состав Института
+            истории СССР Академии наук СССР.
+        </p>
+        <p>
+            С 1914 года в здании располагался Дом Комитета попечительства о русской иконописи. Надо отметить, что дом,
+            вместе с надворными флигелями, был капитально перестроен в 1911 году архитектором М. В. Красовским.
+            Любопытно, что в надворных флигелях в разное время проживали: литературовед В. Н. Перетц (1870-1935 годы),
+            член-корреспондент Академии наук СССР, специалист по древнерусской литературе В. П. Адрианова-Перетц
+            (1888-1972 годы), профессор и заведующий кафедрой ЛГУ, искусствовед М. К. Каргер (1903-1976 годы).
+        </p>
+    </div>
+    <div id="LibraryHistory" style="display:none">
+        <p>В конце 1960-х годов в здание переехала одна из старейших детских библиотек города. С 1979 года библиотека
+            является филиалом № 1 Центральной городской детской библиотеки им. А.С. Пушкина. [2]
+            19 ноября 2013 года, согласно распоряжению КГИОП № 10-580 от 19 ноября 2013 года, здание № 27 на улице
+            Маяковская включено в Единый государственный реестр объектов культурного наследия (памятников истории и
+            культуры) народов Российской Федерации в качестве объекта культурного наследия регионального значения.
+        <p> Источники:</p>
+        <p> 1. История объекта: Маяковского ул., дом 27. – Текст : электронный // GradPetra : история, фото,
+            недвижимость Петербурга. – 2005-2021. – URL: https://history.gradpetra.net/ulitsa/0/1833-27.html (дата
+            обращения: 02.04.2021).</p>
+        <p>2. История библиотеки. – Текст : электронный // ЦГДБ им. А. С. Пушкина. Библиотека "Семья и книга". –2021. –
+            URL: https://pushkinlib.spb.ru/about/biblioteka-semya-i-kniga/ (дата обращения: 05.04.2021).</p>
+
+
+        </p>
+
+    </div>
+    <div id="PhotoGallary" style="display:none">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 17</div>
+                <img src="../pdf/Mayakovskovo/523b55c4ae4b92400f00aebeb90412d7.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 17</div>
+                <img src="../pdf/Mayakovskovo/564564646.png" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 17</div>
+                <img src="../pdf/Mayakovskovo/6f83c3cfdd95b8e811c0e2ebcd95487f.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 17</div>
+                <img src="../pdf/Mayakovskovo/978968657.png" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 17</div>
+                <img src="../pdf/Mayakovskovo/photo_184-188963.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 17</div>
+                <img src="../pdf/Mayakovskovo/photo_184-189025.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 17</div>
+                <img src="../pdf/Mayakovskovo/photo_340-348889.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 17</div>
+                <img src="../pdf/Mayakovskovo/photo_340-348890.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 17</div>
+                <img src="../pdf/Mayakovskovo/photo_427-437628.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 17</div>
+                <img src="../pdf/Mayakovskovo/photo_427-437629.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">11 / 17</div>
+                <img src="../pdf/Mayakovskovo/photo_427-437630.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">12 / 17</div>
+                <img src="../pdf/Mayakovskovo/Пятиэтажные флигели..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">13 / 17</div>
+                <img src="../pdf/Mayakovskovo/У входа в библиотеку..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">14 / 17</div>
+                <img src="../pdf/Mayakovskovo/Фасад с правой стороны..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">15 / 17</div>
+                <img src="../pdf/Mayakovskovo/Фасад флигеля с аркой в 1-м дворе..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">16 / 17</div>
+                <img src="../pdf/Mayakovskovo/Фасады в 1-м дворе. Лицевой корпус с аркой..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">17 / 17</div>
+                <img src="../pdf/Mayakovskovo/Фасады флигеля во 2-м дворе..jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+            <span class="dot" onclick="currentSlide(13)"></span>
+            <span class="dot" onclick="currentSlide(14)"></span>
+            <span class="dot" onclick="currentSlide(15)"></span>
+            <span class="dot" onclick="currentSlide(16)"></span>
+            <span class="dot" onclick="currentSlide(17)"></span>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>
